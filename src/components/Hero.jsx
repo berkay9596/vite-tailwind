@@ -1,9 +1,9 @@
 import React from "react";
-import hero from "../images/hero.png";
-import instagram from "../images/instagram.png";
-import twitter from "../images/twitter.png";
-import github from "../images/github.png";
-import linkedin from "../images/linkedin.png";
+import hero from "../assets/images/hero.png";
+import instagram from "../assets/images/instagram.png";
+import twitter from "../assets/images/twitter.png";
+import github from "../assets/images/github.png";
+import linkedin from "../assets/images/linkedin.png";
 
 const Hero = () => {
   return (

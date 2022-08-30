@@ -1,14 +1,14 @@
 import React, { useState } from "react";
 //hamgburger to x menu logic
-import hamburger from "../images/hamburger.png";
-import x from "../images/x.png";
+import hamburger from "../assets/images/hamburger.png";
+import x from "../assets/images/x.png";
 //logo
-import logo from "../images/logo.png";
+import logo from "../assets/images/logo.png";
 //link icons
-import home from "../images/home.png";
-import projects from "../images/projects.png";
-import services from "../images/services.png";
-import about from "../images/about.png";
+// import home from "../assets/images/home.png";
+// import projects from "../assets/images/projects.png";
+// import services from "../assets/images/services.png";
+// import about from "../assets/images/about.png";
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const menuItems = ["Home", "Projects", "Services", "About Me"];
