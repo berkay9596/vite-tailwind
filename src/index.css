@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+  max-width: 100%;
+  border: 6px solid;
+  border-image-source: linear-gradient(90deg, #f7c9c9, #fa709a 70%);
+  border-image-slice: 1;
+}
+
+body {
+  font-family: merriweather, serif;
+  background-color: #faeee7;
+}
