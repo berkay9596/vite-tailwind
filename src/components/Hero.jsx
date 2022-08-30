@@ -3,10 +3,11 @@ import hero from "../images/hero.png";
 import instagram from "../images/instagram.png";
 import twitter from "../images/twitter.png";
 import github from "../images/github.png";
+import linkedin from "../images/linkedin.png";
 
 const Hero = () => {
   return (
-    <div className="mt-24 flex flex-col-reverse  items-center justify-between md:flex-row">
+    <div className="mt-0 flex flex-col-reverse items-center  justify-between md:mt-24 md:flex-row">
       <div>
         <h1
           style={{ color: "#33272a" }}
@@ -31,6 +32,9 @@ const Hero = () => {
           </a>
           <a href="https://github.com/berkay9596" target="_blank">
             <img src={github} className="cursor-pointer  hover:opacity-50" />
+          </a>
+          <a href="https://likedin.com/berkay9596" target="_blank">
+            <img src={linkedin} className="cursor-pointer  hover:opacity-50" />
           </a>
         </div>
       </div>
