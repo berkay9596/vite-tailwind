@@ -33,7 +33,7 @@ const Hero = () => {
           <a href="https://github.com/berkay9596" target="_blank">
             <img src={github} className="cursor-pointer  hover:opacity-50" />
           </a>
-          <a href="https://likedin.com/berkay9596" target="_blank">
+          <a href="https://tr.linkedin.com/in/berkay9596" target="_blank">
             <img src={linkedin} className="cursor-pointer  hover:opacity-50" />
           </a>
         </div>
