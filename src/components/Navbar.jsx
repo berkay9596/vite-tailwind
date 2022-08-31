@@ -44,7 +44,7 @@ const Navbar = () => {
           ) : (
             <>
               <img src={hamburger} onClick={openMenu} className="z-10"></img>{" "}
-              <p>aaa</p>
+              <p></p>
             </>
           )}
         </div>
