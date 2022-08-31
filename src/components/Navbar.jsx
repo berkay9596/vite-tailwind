@@ -38,7 +38,7 @@ const Navbar = () => {
             <img
               src={x}
               className="fixed right-12 top-8
-               mt-3 mr-1 w-8 bg-white"
+               z-10 mt-3 mr-1 w-8 bg-white"
               onClick={openMenu}
             ></img>
           ) : (
