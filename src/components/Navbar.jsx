@@ -51,7 +51,7 @@ const Navbar = () => {
         >
           <li className="mb-4 flex justify-center  opacity-100 hover:opacity-50 ">
             {/* <img src={home} className="mr-2 w-8 " /> */}
-            <a className="cursor-pointer ">Home</a>
+            <a className="cursor-pointer ">Home </a>
           </li>
           <li className="mb-4 flex justify-center opacity-100 hover:opacity-50">
             {/* <img src={projects} className="mr-2 w-8" /> */}
