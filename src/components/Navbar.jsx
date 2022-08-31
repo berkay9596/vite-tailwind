@@ -5,10 +5,10 @@ import x from "../assets/images/x.png";
 //logo
 import logo from "../assets/images/logo.png";
 //link icons
-import home from "../assets/images/home.png";
-import projects from "../assets/images/projects.png";
-import services from "../assets/images/services.png";
-import about from "../assets/images/about.png";
+// import home from "../assets/images/home.png";
+// import projects from "../assets/images/projects.png";
+// import services from "../assets/images/services.png";
+// import about from "../assets/images/about.png";
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const menuItems = ["Home", "Projects", "Services", "About Me"];
@@ -42,7 +42,10 @@ const Navbar = () => {
               onClick={openMenu}
             ></img>
           ) : (
-            <img src={hamburger} onClick={openMenu} className="z-10"></img>
+            <>
+              <img src={hamburger} onClick={openMenu} className="z-10"></img>{" "}
+              <p>aaa</p>
+            </>
           )}
         </div>
       </nav>
