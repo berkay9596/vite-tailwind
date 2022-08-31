@@ -35,7 +35,7 @@ const Navbar = () => {
 
         <div className="mr-8 flex cursor-pointer md:hidden" onClick={openMenu}>
           {isMenuOpen ? (
-            <img src={x} className="z-50 w-8"></img>
+            <img src={x} className="fixed z-50 w-8"></img>
           ) : (
             <img src={hamburger}></img>
           )}
@@ -44,7 +44,7 @@ const Navbar = () => {
       {isMenuOpen && (
         <ul
           style={{ width: "-webkit-fill-available" }}
-          className="absolute top-0 left-0 flex min-h-screen flex-col justify-center gap-y-16 bg-purple-600 py-8 text-center text-3xl text-white"
+          className="fixed top-0 left-0 flex min-h-screen flex-col justify-center gap-y-16 bg-purple-600 py-8 text-center text-3xl text-white"
         >
           <li className="mb-4 flex justify-center  opacity-100 hover:opacity-50 ">
             <img src={home} className="mr-2 w-8 " />
