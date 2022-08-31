@@ -37,10 +37,10 @@ const Navbar = () => {
           {isMenuOpen ? (
             <img
               src={x}
-              className="fixed right-12 top-8 z-50 mt-3 mr-1 w-8 bg-white"
+              className="fixed right-12 top-8 z-10 mt-3 mr-1 w-8 bg-white"
             ></img>
           ) : (
-            <img src={hamburger} className="z-50"></img>
+            <img src={hamburger} className="z-10"></img>
           )}
         </div>
       </nav>
