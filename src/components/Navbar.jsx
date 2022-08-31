@@ -33,16 +33,16 @@ const Navbar = () => {
           ))}
         </ul>
 
-        <div className="mr-8 flex cursor-pointer md:hidden" onClick={openMenu}>
+        <div className="mr-8 flex cursor-pointer md:hidden">
           {isMenuOpen ? (
             <img
               src={x}
               className="fixed right-12 top-8
-              
                mt-3 mr-1 w-8 bg-white"
+              onClick={openMenu}
             ></img>
           ) : (
-            <img src={hamburger} className="z-10"></img>
+            <img src={hamburger} onClick={openMenu} className="z-10"></img>
           )}
         </div>
       </nav>
