@@ -40,7 +40,7 @@ const Navbar = () => {
               className="fixed right-12 top-8 z-50 mt-3 mr-1 w-8 bg-white"
             ></img>
           ) : (
-            <img src={hamburger}></img>
+            <img src={hamburger} className="z-50"></img>
           )}
         </div>
       </nav>
