@@ -56,19 +56,19 @@ const Navbar = () => {
         >
           <li className="mb-4 flex justify-center  opacity-100 hover:opacity-50 ">
             {/* <img src={home} className="mr-2 w-8 " /> */}
-            <a className="cursor-pointer ">Home </a>
+            <a className="cursor-pointer" href="#hero" onClick={()=>setIsMenuOpen(false)}>Home </a>
           </li>
           <li className="mb-4 flex justify-center opacity-100 hover:opacity-50">
             {/* <img src={projects} className="mr-2 w-8" /> */}
-            <a className="cursor-pointer"> Projects</a>
+            <a href="#projects" className="cursor-pointer" onClick={()=>setIsMenuOpen(false)}> Projects</a>
           </li>
           <li className="mb-4 flex justify-center opacity-100 hover:opacity-50">
             {/* <img src={services} className="mr-2 w-8" /> */}
-            <a className="cursor-pointer">Services</a>
+            <a className="cursor-pointer" onClick={()=>setIsMenuOpen(false)}>Services</a>
           </li>
           <li className="mb-4 flex justify-center opacity-100 hover:opacity-50">
             {/* <img src={about} className="mr-2 w-8" /> */}
-            <a className="cursor-pointer"> About Me</a>
+            <a className="cursor-pointer" onClick={()=>setIsMenuOpen(false)}> About Me</a>
           </li>
         </ul>
       )}

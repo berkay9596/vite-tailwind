@@ -7,7 +7,10 @@ import linkedin from "../assets/images/linkedin.png";
 
 const Hero = () => {
   return (
-    <div className="mt-0 flex flex-col-reverse items-center  justify-between md:mt-24 md:flex-row">
+    <div
+      id="hero"
+      className="mt-0 flex flex-col-reverse items-center  justify-between md:mt-24 md:flex-row"
+    >
       <div>
         <h1
           style={{ color: "#33272a" }}
